@@ -5,13 +5,22 @@ const CamperTableItem = ({camper, rank}) => (
   <tr>
     <td>{rank}</td>
     <td>{camper.username}</td>
+    <td>
+      <img src={camper.image} alt="user image" />
+    </td>
     <td>{camper.recent}</td>
     <td>{camper.allTime}</td>
   </tr>
 );
 
 CamperTableItem.propTypes = {
-  camper: shape({username: string, recent: number, allTime: number}),
+  camper: shape({
+    id: number,
+    username: string,
+    image: string,
+    recent: number,
+    allTime: number,
+  }),
   rank: number,
 };
 
