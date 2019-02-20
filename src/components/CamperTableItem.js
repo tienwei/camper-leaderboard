@@ -6,7 +6,7 @@ const CamperTableItem = ({camper, rank}) => (
     <td>{rank}</td>
     <td>{camper.username}</td>
     <td>
-      <img src={camper.image} alt="user image" />
+      <img src={camper.image} alt={camper.username} />
     </td>
     <td>{camper.recent}</td>
     <td>{camper.allTime}</td>

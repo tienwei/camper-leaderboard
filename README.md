@@ -10,6 +10,7 @@ The app has a set of radio buttons which sorts the campers based on `Past 30 Day
 - Run `npm install` to install all the required packages.
 - Run `npm server` to boot up the server.
 - Run `npm run start` to start the app.
+  you will need to run the server and the client respectively.
 
 ### Test
 
